@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: miniproject1
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: laxman
+    url: jdbc:mysql://localhost:3306/ashokit_miniproject1
+    username: root
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+ # main:
+  #  banner-mode: off     # this is used for turn off banner (#is used for comment the line).
+
+#logging:
+ #  level:
+  #   org:
+   #  springframework: OFF		# this is used for turn off log info.
+    # root: OFF
+    
+    
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+    host: smtp.gmail.com
+    username: laxman12345moharana@gmail.com
+    password: igvq qwfo devb quok
+    port: 587
+    

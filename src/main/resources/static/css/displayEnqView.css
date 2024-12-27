@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+
+body{
+	padding: 0;
+	margin:0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: url(/img/dsbackground.jpg);
+	background-size: cover;
+
+}
+table{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	border-collapse: collapse;
+	width: 800px;
+	height: 200px;
+	border: 1px solid white;
+	box-shadow:2px 2px 12px rgba(0, 0,0, 0.2), -1px -1px 8px rgba(0, 0,0, 0.2);
+}
+tr{
+	transition: all .2s ease-in;
+	cursor: pointer;
+}
+td{
+	color: white;
+}
+
+th,td{
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+thead{
+	background-color: #16a085;
+	color: white;
+}
+.btn{
+	background-color: #16a085;
+	color: white;
+	margin-left: 1%;
+}
+h2{
+	font-weight: 600;
+	text-align: center;
+	background-color:#16a085 ;
+	color: white;
+	padding: 10px 0px;
+}
+h6{
+	padding: 8px 0px;
+	font-weight: bold;
+}
+#in-line div{
+	margin-left: 10px;
+	margin-right:10px;
+}
+
+tbody tr:hover{
+	transform: scale(1.02);
+	box-shadow:2px 2px 12px rgba(0, 0,0, 0.2), -1px -1px 8px rgba(0, 0,0, 0.2);
+}
+
+option{
+	color:white ;
+	background-color:#16a085;
+	font-weight: 200;
+}
+
+@media only screen and(max-width: 768px){
+	table{
+		width: 90%;
+	}
+}
+
+#in-line{
+	display: flex;
+}
+.but{
+	display: flex;
+    margin-top: 32%;
+    margin-left: 23%;
+}
